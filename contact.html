@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cox</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="stylesheet" href="css/projects.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0px;
+      }
+      hr {
+        height: 4px;
+        width: 70px;
+        text-align: center;
+        position: relative;
+        background: #a7c44c;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        border: 0;
+      }
+      h1 {
+        font-family: cursive;
+        text-align: center;
+        margin: 0 0 20px 0;
+        font-weight: 500;
+        font-size: 44px;
+        color: white;
+        text-transform: uppercase;
+      }
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+      input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin: 10px 10px;
+      }
+    </style>
+  </head>
+  <body
+    class="home"
+    style="
+      background-image: url('images/background2.jpg');
+      background-repeat: no-repeat;
+    "
+  >
+    <header>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="index.html"> Cox</a>
+        </div>
+        <nav>
+          <a href="gallery.html">Projects &nbsp;</a>
+          <a href="contact.html">Contact &nbsp;</a>
+          <a href="our_team.html">Team &nbsp;</a>
+          <a href="">About Us &nbsp;</a>
+        </nav>
+      </div>
+    </header>
+    <br /><br /><br />
+    <h1>LEAVE US A MESSAGE</h1>
+    <hr />
+    <div class="container">
+      <form method="POST" action="insert_contact.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="usa">INDIA</option>
+          <option value="usa">DUBAI</option>
+          <option value="usa">MEXICO</option>
+          <option value="australia">AUSTRALIA</option>
+          <option value="canada">CANADA</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="description"
+          name="description"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <br /><br />
+    <div id="footer">
+      <div>
+        <div class="social">
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com"
+                onclick="window.alert('Thank you for visiting Cox.');"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com"
+                onclick="window.alert('Thank you for visiting Cox.');"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Google%2B"
+                onclick="window.alert('Thank you for visiting Cox.');"
+                ><i class="fab fa-google-plus"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://in.pinterest.com"
+                onclick="window.alert('Thank you for visiting Cox.');"
+                ><i class="fab fa-pinterest"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com"
+                onclick="window.alert('Thank you for visiting Cox.');"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div style="color: aliceblue">
+          <p style="text-align: center">
+            &copy; 2020 Cox. All rights reserved. <br /><br />Designed by Roll
+            no 45, 46, 47, 61
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

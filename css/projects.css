@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+.home {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  background-color: burlywood;
+  background-size: cover;
+  color: black;
+}
+header {
+  background-color: snow;
+  height: 60px;
+  color: green;
+  position: fixed;
+  font-size: 25px;
+  z-index: 1;
+}
+header a:hover {
+  color: black;
+}
+.wrapper {
+  width: 1350px;
+  margin: 0 auto;
+}
+nav {
+  float: right;
+  margin: 10px 20px;
+}
+.logo {
+  float: left;
+  line-height: 50px;
+  margin-left: 20px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-spacing: 9px;
+}
+#title {
+  letter-spacing: 0.1em;
+}
+.header1 {
+  background-size: cover;
+  height: 70%;
+  text-align: center;
+}
+img {
+  opacity: 0.5;
+}
+#hover-img :hover {
+  opacity: 1;
+}
+#footer {
+  background: #333;
+  padding: 50px 0 20px 0;
+  display: flex;
+  justify-content: center;
+}
+#footer .social {
+  margin-bottom: 50px;
+}
+#footer .social ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+#footer .social i.fa {
+  font-size: 26px;
+  padding: 4px;
+  color: #a7c44c;
+  transition: all 0.3s;
+}
+#footer .social i.fa:hover {
+  color: #eee;
+}
+#footer p {
+  font-size: 15px;
+}
+#footer a {
+  color: #999;
+}
+#footer a:hover {
+  color: #a7c44c;
+}
+a {
+  color: green;
+  text-decoration: none;
+}

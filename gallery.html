@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link rel="stylesheet" href="css/gallerycss.css">
+    <link rel="stylesheet" href="css/projects.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <title>Cox GALLERY</title>
+</head>
+ <style>
+      .example {
+        cursor: pointer;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+        width: 400px;
+        text-align: center;
+      }
+      .example .fadedbox {
+        background-color: #666666;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+        opacity: 0;
+        width: 300px;
+        height: 300px;
+        padding: 130px 20px;
+      }
+      .example:hover .fadedbox {
+        opacity: 0.8;
+      }
+      .example .text {
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+        transform: translateY(30px);
+        -webkit-transform: translateY(30px);
+      }
+      .example .title {
+        font-size: 2.5em;
+        text-transform: uppercase;
+        opacity: 0;
+        transition-delay: 0.2s;
+        transition-duration: 0.3s;
+      }
+      .example:hover .title,
+      .example:focus .title {
+        opacity: 1;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+      }
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  padding:20px 40px;
+  font-style: italic;
+}
+
+    </style>
+<body style="
+      background-image: url('images/background2.jpg');
+      background-repeat: no-repeat;
+    ">
+    <header style="z-index: 1;">
+      <div class="wrapper">
+        <div class="logo">
+          <a href="index.html"> Cox</a>
+        </div>
+        <nav>
+          <a href="gallery.html">Projects&nbsp;</a>
+          <a href="contact.html">Contact&nbsp;</a>
+          <a href="our_team.html">Team&nbsp;</a>
+          <a href="aboutus.html">About Us&nbsp;</a>
+        </nav>
+      </div>
+    </header>
+<section class="section gallery">
+  <div class="container">
+    <h1 class="gallery-heading" style="color: white; margin-top: 75px;">Photo Gallery</h1>
+    <div class="gallery-grid">
+<div class="container">
+      <div class="gallery-item">
+ <a href="balcony.html">  <img style="width:400px;height:400px;" src="images/balcony.jpg">
+<div class="middle">
+    <div class="text">BALCONY & EXTRAS</div>
+  </div> </div>
+</div>
+<div class="container">
+ <div class="gallery-item">
+  <a href="gym.html">  <img style="width:400px;height:400px;" src="images/gym.jpg">  
+<div class="middle">
+    <div class="text">GYM</div>
+  </div> </div>
+</div>
+<div class="container">
+ <div class="gallery-item">
+   <a href="exteriors.html"> <img style="width:400px;height:400px;" src="images/hero_image2.jpg">  
+<div class="middle">
+    <div class="text">EXTERIORS</div>
+  </div> </div>
+</div>
+<div class="container">
+<div class="gallery-item">
+ <a href="kitchen.html">  <img style="width:400px;height:400px;" src="images/kitchen1.jpg">   
+<div class="middle">
+    <div class="text">KITCHEN</div>
+  </div> </div>
+</div>
+<div class="container">
+ <div class="gallery-item">
+ <a href="office1.html"> <img style="width:400px;height:400px;" src="images/Modern_Exec1.jpg">   
+ <div class="middle">
+    <div class="text">OFFICE</div>
+  </div> </div>
+</div>
+<div class="container">
+<div class="gallery-item">
+ <a href="livingroom.html"> <img style="width:400px;height:400px;" src="images/livingroom.jpg">   
+ <div class="middle">
+    <div class="text">LIVING ROOM</div>
+  </div> </div>
+</div>
+<div class="container">
+<div class="gallery-item">
+  <a href="restaurant.html">  <img style="width:400px;height:400px;" src="images/restaurant.jpg">  
+<div class="middle">
+    <div class="text">RESTAURANTS</div>
+  </div> </div>
+</div>
+<div class="container">
+<div class="gallery-item">
+ <a href="swimming.html"><img style="width:400px;height:400px;" src="images/swimming.jpg">   
+<div class="middle">
+    <div class="text">SWIMMING POOL</div>
+  </div> </div>
+</div>
+<div class="container">
+<div class="gallery-item">
+ <a href="washroom.html">  <img style="width:400px;height:400px;" src="images/washroom.jpg">   
+ <div class="middle">
+    <div class="text">WASHROOM</div>
+  </div>
+</div> </div>
+  </div>
+</section>
+  <div id="footer">
+      <div>
+        <div class="social">
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com"
+                onclick="window.alert('Thank you for visiting Cox.');"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com"
+                onclick="window.alert('Thank you for visiting Cox.');"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Google%2B"
+                onclick="window.alert('Thank you for visiting Cox.');"
+                ><i class="fab fa-google-plus"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://in.pinterest.com"
+                onclick="window.alert('Thank you for visiting Cox.');"
+                ><i class="fab fa-pinterest"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com"
+                onclick="window.alert('Thank you for visiting Cox.');"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p style="text-align: center; color: aliceblue">
+            &copy; 2020 Cox. All rights reserved. <br /><br />Designed by Roll
+            no 45, 46, 47 , 61
+          </p>
+        </div>
+      </div>
+    </div>
+<!-- Lightbox -->
+<div class="lightbox preload">
+  <div class="lb-content">
+    <!-- You may put a loader gif or svg here for starters -->
+    <img class="lb-img" src="https://res.cloudinary.com/ahmedagadir/image/upload/v1530730083/pokemon-API/loader-1.svg" alt="lightbox image">
+    <div class="lb-caption">
+      <a class="lb-url" href="" rel="noopener" target="_blank">Link to Site &rarr;</a>
+      <div class="lb-text"></div>
+    </div>
+    <a href="#" class="close">&times;</a>
+  </div>
+</div>
+<script src="galleryjs.js"></script>
+</body>
+
+</html>
